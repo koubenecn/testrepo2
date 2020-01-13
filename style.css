@@ -9,6 +9,29 @@ h1{
   margin: .2em .5em;
   color: rgba(0,0,0, 0.3);
 }
+
+main {
+  background: transparent;
+  height: 200px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+}
+
+main div {
+  background: transparent;
+  color: white;
+  width: 50%;
+  padding: 20px;
+  resize: both;
+  overflow: auto;
+}
+
 body {
     height: 100%;
 }
